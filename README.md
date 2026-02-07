@@ -16,7 +16,7 @@ An enterprise-grade, serverless security pipeline utilizing Amazon Rekognition a
 The system is built on a **Serverless, Zero-Trust** framework, ensuring maximum scalability and minimal operational overhead.
 
 <p align="center">
-  <img src="src/4.png" alt="Architecture Diagram" width="800">
+  <img src="src/Architecture%20Diagram.png" alt="System Architecture Diagram" width="800">
 </p>
 
 ### **The Engineering Workflow:**
@@ -32,13 +32,15 @@ The system is built on a **Serverless, Zero-Trust** framework, ensuring maximum 
 ### **1. Backend Execution Telemetry**
 The following logs demonstrate the seamless transition from file ingestion to threat identification, with a total processing time of **< 800ms**.
 
-![CloudWatch Logs](docs/logs.png)
-
+<p align="center">
+  <img src="src/CloudWatch%20Logs.png" alt="CloudWatch Execution Logs" width="800">
+</p>
 ### **2. Automated Incident Notification**
 The final output of the pipeline: an automated, high-priority security alert delivered to the administration.
 
-![Email Alert](docs/alert.png)
-
+<p align="center">
+  <img src="src/Email%20Alert.png" alt="Automated Email Alert Notification" width="800">
+</p>
 ---
 
 ## 🛡️ Security & Governance
