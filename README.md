@@ -7,12 +7,12 @@ An enterprise grade, serverless security pipeline utilizing Amazon Rekognition a
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📌 Executive Summary
+##  Executive Summary
 a cloud native, automated security engine designed to identify physical threats in real time. By leveraging **Event Driven Architecture (EDA)**, the system autonomously audits visual telemetry uploaded to cloud storage to detect unauthorized weaponry (knives/weapons) and initiates an immediate incident response protocol.
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 The system is built on a **Serverless, Zero Trust** framework, ensuring maximum scalability and minimal operational overhead.
 
 <p align="center">
@@ -27,7 +27,7 @@ The system is built on a **Serverless, Zero Trust** framework, ensuring maximum 
 
 ---
 
-## 📊 Proof of Concept (Validation)
+##  Proof of Concept (Validation)
 
 ### **1. Backend Execution Telemetry**
 The following logs demonstrate the seamless transition from file ingestion to threat identification, with a total processing time of **< 800ms**.
